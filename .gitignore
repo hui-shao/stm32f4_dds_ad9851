@@ -1,0 +1,7 @@
+MDK-ARM/OBJ/*
+MDK-ARM/.vscode/
+.idea/
+.vs/
+
+!MDK-ARM/OBJ/*.hex
+MDK-ARM/EventRecorderStub.scvd
