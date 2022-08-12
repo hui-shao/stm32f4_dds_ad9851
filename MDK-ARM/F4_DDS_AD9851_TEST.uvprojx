@@ -395,11 +395,6 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
-              <FileName>ad9850.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Core\Src\ad9850.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>
@@ -418,6 +413,11 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
+            </File>
+            <File>
+              <FileName>ad9851.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Core\Src\ad9851.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "ad9850.h"
+#include "ad9851.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -87,8 +87,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   double fre = 0.2e6; //设定频率
-  AD9850_Init();
-  AD9850_Write(AD9851_FD, (double)fre);
+  AD9851_Init();
+  AD9851_Write(AD9851_FD, (double)fre);
 
   /* USER CODE END 2 */
 
